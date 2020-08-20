@@ -1,10 +1,10 @@
 /* Body */
 body{
-    background-color: #EDEDED; 
+    background-color: white; 
   }
   /* Navbar */
   .navbar{
-    max-height: 57px; 
+    max-height: 50px; 
   }
   .navigation .navbar-brand{
     color: white; 
@@ -16,23 +16,23 @@ body{
   }
   .navbar{
     background-color: white; 
-    font-size: 15px; 
+    font-size: 25px; 
   }
   .active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color:#E7E7E7!important; 
+    background-color:white!important; 
   }
   .dropdown-item{
     color: #6D8092 !important; 
   }
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color:#E7E7E7 !important; 
+    background-color:white !important; 
   }
   a{
     color: #6D8092;
     font-size: 15px; 
   }
   .nav-link:hover{
-    background-color:#E7E7E7 !important;
+    background-color:white !important;
    }
   
   .navbar-brand:hover{
@@ -53,20 +53,20 @@ body{
     height:50% !important;
   }
   
-  /* Title Class  */
+  /* Title */
   .title{
     color: #0BADA6;  
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder; 
     padding-top: 25px; 
   }
-  /* Paragraph Element */
+  /* Paragraphs*/
   p{
   color: #6D8092;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px; 
   }
-  /* Box Class */
+  /* Boxes */
   .box {
     margin-top: 60px; 
     margin-bottom: 62px; 
@@ -75,21 +75,21 @@ body{
     background-color: white; 
   
   }
-  /* Table */
+  /* Tables*/
   .table{
     font-size: 15px; 
     border-top-color: white !important; 
   }
   /* Footer */
   footer{
-  background-color: #666666; 
+  background-color: #000000; 
   border-top-style: solid; 
   border-top-width: 5px; 
-  border-top-color: #0BADA6;
+  border-top-color:#0BADA6;
   color: white; 
-  min-height: 55px; 
+  min-height: 50px; 
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px; 
+  font-size: 10px; 
   text-align: center; 
   position: fixed;
   left: 0;
@@ -120,7 +120,7 @@ body{
   button:focus {
   
     outline: 1px dotted;
-    outline: 5px auto -webkit-focusring-color;
+    outline: auto 5px;
     
     }
   }

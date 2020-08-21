@@ -18,15 +18,7 @@ body{
     background-color: white; 
     font-size: 25px; 
   }
-  .active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color:white!important; 
-  }
-  .dropdown-item{
-    color: #6D8092 !important; 
-  }
-  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color:white !important; 
-  }
+  
   a{
     color: #6D8092;
     font-size: 15px; 
